@@ -9,7 +9,7 @@ var simplify = (function simplifyApp() {
 
 	var addSimplifyButton = function() {
 		$("#subnav-title").append(
-			'<button id="slim-button" class="aui-button" onclick="simplify.onSlimifyClick()">slimify</button>'
+			'<button id="slim-button" class="aui-button" onclick="simplify.onSimplifyClick()">slimify</button>'
 		);
 		console.log("slimify has been injected");
 
@@ -73,7 +73,7 @@ var simplify = (function simplifyApp() {
 		calculateTotalComplexity();
 	};
 
-	var onSlimifyClick = function() {
+	var onSimplifyClick = function() {
 		enableSwaggerMode();
 		console.log("slimify activated... refresh to reset state");
 	};
