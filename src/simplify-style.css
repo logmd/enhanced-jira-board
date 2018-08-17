@@ -130,9 +130,10 @@ display:none !important;
 
 .ghx-issue{
     padding:8px 0px;
-        border:1px solid #00000033;
-
+    margin-bottom:5px;
+    border:1px solid #00000033;
     margin-right:2px;
+
 }
 
 .ghx-highlighted-field .aui-label{
@@ -180,11 +181,11 @@ font-weight:bolder;
     padding: 2px;
     padding-top:3px;
     font-size: 15px;
-    background-color:#cccccc;
+    background-color:#B39DDB;
     color:white;
     z-index:100;
-float:left;
-border:1px solid #673AB7;
+    float:left;
+    border:1px solid #673AB7;
    }
 
 .ghx-issue:hover .ghx-grabber{
