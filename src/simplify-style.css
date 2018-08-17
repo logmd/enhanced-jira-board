@@ -181,11 +181,11 @@ font-weight:bolder;
     padding: 2px;
     padding-top:3px;
     font-size: 15px;
-    background-color:#B39DDB;
-    color:white;
+    background-color:#EDE7F6;
+    color:#673AB7;
     z-index:100;
     float:left;
-    border:1px solid #673AB7;
+    border:1px solid #9575CD;
    }
 
 .ghx-issue:hover .ghx-grabber{
