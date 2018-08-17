@@ -1,8 +1,10 @@
-// (function simplifyApp(){
-// var cssCdn = 'https://cdn.rawgit.com/logmd/6e3071f77eb976ea9e8556a95d2b5b81/raw/2af2cd3bf23cf98525ead7317ab13288d7226842/jira-board-cleanup.css'
+(function simplifyApp(){
+var cssDevCdn = 'https://rawgit.com/logmd/enhanced-jira-board/master/src/simplify-style.css',
+cssProdCdn = 'https://cdn.rawgit.com/logmd/enhanced-jira-board/510115ee/src/simplify-style.css',
+cssCdn = cssDevCdn;
 
 
-// })()
+})()
 
 
 
