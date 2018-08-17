@@ -8,10 +8,6 @@ $(document).ready(function() {
 	var loadJs = function() {
 		var script = document.createElement("script");
 		script.src = jsCdn;
-
-		console.log();
-		console.log(script);
-
 		document.head.appendChild(script);
 	};
 

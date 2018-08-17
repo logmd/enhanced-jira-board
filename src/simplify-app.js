@@ -48,16 +48,7 @@ function simplifyApp() {
 		});
 	};
 
-	var enableSwaggerMode = function() {
-		var head = document.getElementsByTagName("head")[0];
-		var link = document.createElement("link");
-		link.id = "slim-css";
-		link.rel = "stylesheet";
-		link.type = "text/css";
-		link.href = cssCdn;
-		link.media = "all";
-		head.appendChild(link);
-
+	var addIssueNumber = function() {
 		$.each($(".js-key-link"), function(i, item) {
 			var text = item.innerText;
 			var reg = new RegExp("([^-]+$)");
@@ -68,24 +59,39 @@ function simplifyApp() {
 					"<span class='boring-issue-number'>" + reg.exec(text)[0] + "</span>"
 				);
 		});
+	};
 
-		calculateTotalComplexity();
+	var addStylesToDocument = function() {
+		var head = document.getElementsByTagName("head")[0];
+		var link = document.createElement("link");
+		link.id = "slim-css";
+		link.rel = "stylesheet";
+		link.type = "text/css";
+		link.href = cssCdn;
+		link.media = "all";
+		head.appendChild(link);
+	};
+
+	var hideHeader = function() {
+		$("#jira").addClass("ghx-header-compact");
 	};
 
 	var onSimplifyClick = function() {
-		enableSwaggerMode();
+		hideHeader();
+		addStylesToDocument();
+		addIssueNumber();
+		calculateTotalComplexity();
 		console.log("slimify activated... refresh to reset state");
 	};
 
 	var init = function() {
 		self.onSimplifyClick = onSimplifyClick;
 		addSimplifyButton();
-
+		$("#jira").removeClass("ghx-header-compact");
 		console.log("simplify has initialised");
 	};
 
 	init();
-	return this;
 }
 
 var simplify = new simplifyApp();
