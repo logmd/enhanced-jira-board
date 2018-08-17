@@ -1,4 +1,4 @@
-var simplify = (function simplifyApp() {
+function simplifyApp() {
 	var self = this;
 
 	var cssDevCdn =
@@ -79,15 +79,16 @@ var simplify = (function simplifyApp() {
 	};
 
 	var init = function() {
-		self.onSlimifyClick = onSimplifyClick;
+		self.onSimplifyClick = onSimplifyClick;
 		addSimplifyButton();
 
 		console.log("simplify has initialised");
 	};
 
 	init();
-
 	return this;
-})();
+}
+
+var simplify = new simplifyApp();
 
 console.log(simplify);
