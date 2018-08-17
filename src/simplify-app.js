@@ -1,12 +1,22 @@
-(function simplifyApp() {
+var simplify = (function simplifyApp() {
+	var self = this;
+
 	var cssDevCdn =
 			"https://rawgit.com/logmd/enhanced-jira-board/master/src/simplify-style.css",
 		cssProdCdn =
 			"https://cdn.rawgit.com/logmd/enhanced-jira-board/510115ee/src/simplify-style.css",
 		cssCdn = cssDevCdn;
-})();
 
-function onSlimifyClick() {
+	var addSimplifyButton = function() {
+		$("#subnav-title").append(
+			'<button id="slim-button" class="aui-button" onclick="simplify.onSlimifyClick()">slimify</button>'
+		);
+		console.log("slimify has been injected");
+
+		var urlParams = new URLSearchParams(window.location.search);
+		if (urlParams.has("slimify")) onSlimifyClick();
+	};
+
 	var calculateTotalComplexity = function() {
 		var columns = $("li[data-id]").map(function() {
 			return $(this).attr("data-id");
@@ -63,16 +73,21 @@ function onSlimifyClick() {
 		calculateTotalComplexity();
 	};
 
-	enableSwaggerMode();
-	console.log("slimify activated... refresh to reset state");
-}
+	var onSlimifyClick = function() {
+		enableSwaggerMode();
+		console.log("slimify activated... refresh to reset state");
+	};
 
-$(document).ready(function() {
-	$("#subnav-title").append(
-		'<button id="slim-button" class="aui-button" onclick="onSlimifyClick()">slimify</button>'
-	);
-	console.log("slimify has been injected");
+	var init = function() {
+		self.onSlimifyClick = onSimplifyClick;
+		addSimplifyButton();
 
-	var urlParams = new URLSearchParams(window.location.search);
-	if (urlParams.has("slimify")) onSlimifyClick();
-});
+		console.log("simplify has initialised");
+	};
+
+	init();
+
+	return this;
+})();
+
+console.log(simplify);
