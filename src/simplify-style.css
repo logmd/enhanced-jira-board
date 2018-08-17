@@ -1,8 +1,6 @@
-nav.aui-header,
 #announcement,
 .aui-sidebar-wrapper,
 #announcement-banner,
-#ghx-header,
 #ghx-operations,
 .ghx-flags,
 .ghx-type,
@@ -84,9 +82,7 @@ display:none !important;
 
 .ghx-summary{
     font-size:23px !important;
-    padding-right:15px;
-    min-height:45px;
-        
+    padding-right:15px;        
 }
 
 .ghx-parent-stub{
@@ -109,15 +105,16 @@ display:none !important;
 }
 
 .ghx-avatar{
-    top:auto !important;
-    bottom:5px !important;
-    right:35px !important;
+    top:15px !important;
+    right:-12.5px !important;
     border-radius:50px !important;
     border:1px solid #00000088;
     overflow:hidden;
     background-color:#ffffff;
     z-index:100;
-    opacity:0.5;
+    opacity:0.9;
+    display:block;
+    float:right;
 }
 
 .ghx-end{
@@ -134,8 +131,6 @@ display:none !important;
 .ghx-issue{
     padding:8px 0px;
         border:1px solid #00000033;
-
-    overflow:hidden;
 
     margin-right:2px;
 }
@@ -174,17 +169,20 @@ font-weight:bolder;
     top:0px;
     right:3px;
     z-index:1000;
-
 }
 
 .aui-badge {
+
+    top:-20px !important;
+    right:-12px !important;
+
     border-radius:100px !important;
     min-height: 1.0em;
     min-width: 1.0em;
     padding: 2px;
     padding-top:4px;
     font-size: 18px;
-    background-color:#00000033;
+    background-color:#00000044;
     color:white;
 
 
