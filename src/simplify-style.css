@@ -1,0 +1,201 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300ita‌​lic,400italic,500,500italic,700,700italic,900italic,900);
+
+nav.aui-header,
+#announcement,
+.aui-sidebar-wrapper,
+#announcement-banner,
+#ghx-header,
+#ghx-operations,
+.ghx-flags,
+.ghx-type,
+.ghx-days,
+.ghx-detail-view,
+.ghx-key{
+display:none !important;
+}
+
+html, body, html * {
+  font-family: 'Roboto', sans-serif !important;
+}
+
+#gh{
+ padding:0;   
+}
+
+#ghx-column-header-group{
+    top:3px !important;
+    left: 10px !important;
+    width: 99% !important;
+}
+
+.ghx-column-headers, .ghx-columns{
+    border-spacing:2px;
+}
+
+.ghx-column{
+    border-right:#00000011 dashed 2px;
+    background-color:white !important;
+}
+
+.ghx-column:nth-of-type(2) {
+    background: #00000003 !important;
+}
+
+.ghx-column:nth-of-type(3) {
+    background: #00000006 !important;
+}
+
+
+.ghx-column:nth-of-type(4) {
+    background: #00000009 !important;
+}
+
+.ghx-column:nth-of-type(5) {
+    background: #00000012 !important;
+}
+
+
+.ghx-column:nth-of-type(6) {
+    background: #00000015 !important;
+}
+
+.ghx-column:nth-of-type(7) {
+    background: #00000018 !important;
+}
+.ghx-column-headers{
+    padding-right:0px !important;
+     text-align: center;
+}
+
+#ghx-controls-work{
+   margin:0 !important;
+}
+
+.ghx-key a{
+
+}
+
+.ghx-grabber{
+    opacity:0.2;
+}
+
+.ghx-key{
+    margin-left:-10px;
+    padding:2px 5px 2px 5px;
+    margin-top:-5px;
+    width:104%;
+    text-align:right;
+    font-size:15px;
+}
+
+.ghx-summary{
+    font-size:23px !important;
+    padding-right:15px;
+    min-height:45px;
+        
+}
+
+.ghx-parent-stub{
+    min-height:45px;
+}
+
+.ghx-issue-fields{
+    padding-right:0px !important;
+    color:#000000AA !important;
+}
+
+.ghx-issue-content{
+    padding: 5px 5px 5px 10px !important;
+    min-height: 0px !important;
+}
+
+.ghx-avatar img{
+    height:23px;
+    width:23px;
+}
+
+.ghx-avatar{
+    top:auto !important;
+    bottom:5px !important;
+    right:35px !important;
+    border-radius:50px !important;
+    border:1px solid #00000088;
+    overflow:hidden;
+    background-color:#ffffff;
+    z-index:100;
+    opacity:0.5;
+}
+
+.ghx-end{
+    bottom: 5px !important;
+    right:5px !important;
+    box-shadow:none !important;
+    background-color:transparent !important;
+}
+
+.ghx-highlighted-fields{
+    margin-top:5px !important;
+}
+
+.ghx-issue{
+    padding:8px 0px;
+        border:1px solid #00000033;
+
+    overflow:hidden;
+
+    margin-right:2px;
+}
+
+.ghx-highlighted-field .aui-label{
+    width:100%;
+    padding:2px;
+    opacity:0.4;
+    font-size:11px;
+}
+
+.ghx-highlighted-field, .ghx-highlighted-fields{
+    max-width:97% !important;
+    width:84% !important;
+    margin:0 !important;
+    padding:0 !important;
+    margin-top:2px !important;
+
+}
+
+
+.column-total-complexity{
+background-color:#00000088;
+color:white;
+padding:2px 6px 2px 6px;
+border-radius:50px;
+font-weight:bolder;
+
+}
+
+.boring-issue-number{
+    position:absolute;
+    color:#0277BD;
+    font-weight:bold;
+    font-size:12px;
+    top:0px;
+    right:3px;
+    z-index:1000;
+
+}
+
+.aui-badge {
+    border-radius:100px !important;
+    min-height: 1.0em;
+    min-width: 1.0em;
+    padding: 2px;
+    padding-top:4px;
+    font-size: 18px;
+    background-color:#00000033;
+    color:white;
+
+
+   }
+
+.ghx-issue:hover .ghx-grabber{
+    opacity:1;
+}
