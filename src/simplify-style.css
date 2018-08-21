@@ -1,193 +1,149 @@
-#announcement,
-.aui-sidebar-wrapper,
-#announcement-banner,
-#ghx-operations,
-.ghx-flags,
-.ghx-type,
-.ghx-days,
-.ghx-detail-view,
-.ghx-key{
-display:none !important;
+#announcement, #ghx-errors, .aui-sidebar-wrapper, #announcement-banner, #ghx-operations, .ghx-flags, .ghx-type, .ghx-days, .ghx-detail-view, .ghx-key{
+     display:none !important;
 }
-
-#gh{
- padding:0;   
+ #gh{
+     padding:0;
 }
-
-#ghx-column-header-group{
-    top:3px !important;
-    left: 10px !important;
-    width: 99% !important;
+ #ghx-column-header-group{
+     top:3px !important;
+     left: 10px !important;
+     width: 99% !important;
 }
-
-.ghx-column-headers, .ghx-columns{
-    border-spacing:2px;
+ .ghx-column-headers, .ghx-columns{
+     border-spacing:2px;
 }
-
-.ghx-column{
-    border-right:#00000011 dashed 2px;
-    background-color:white !important;
+ .ghx-column{
+     border-right:#00000011 dashed 2px;
+     background-color:white !important;
 }
-
-.ghx-column:nth-of-type(2) {
-    background: #00000003 !important;
+ .ghx-column:nth-of-type(2) {
+     background: #00000003 !important;
 }
-
-.ghx-column:nth-of-type(3) {
-    background: #00000006 !important;
+ .ghx-column:nth-of-type(3) {
+     background: #00000006 !important;
 }
-
-
-.ghx-column:nth-of-type(4) {
-    background: #00000009 !important;
+ .ghx-column:nth-of-type(4) {
+     background: #00000009 !important;
 }
-
-.ghx-column:nth-of-type(5) {
-    background: #00000012 !important;
+ .ghx-column:nth-of-type(5) {
+     background: #00000012 !important;
 }
-
-
-.ghx-column:nth-of-type(6) {
-    background: #00000015 !important;
+ .ghx-column:nth-of-type(6) {
+     background: #00000015 !important;
 }
-
-.ghx-column:nth-of-type(7) {
-    background: #00000018 !important;
+ .ghx-column:nth-of-type(7) {
+     background: #00000018 !important;
 }
-.ghx-column-headers{
-    padding-right:0px !important;
+ .ghx-column-headers{
+     padding-right:0px !important;
      text-align: center;
 }
-
-#ghx-controls-work{
-   margin:0 !important;
+ #ghx-controls-work{
+     margin:0 !important;
 }
-
-.ghx-key a{
-
+ .ghx-key a{
 }
-
-.ghx-grabber{
-    opacity:0.2;
+ .ghx-grabber{
+     opacity:0.2;
 }
-
-.ghx-key{
-    margin-left:-10px;
-    padding:2px 5px 2px 5px;
-    margin-top:-5px;
-    width:104%;
-    text-align:right;
-    font-size:15px;
+ .ghx-key{
+     margin-left:-10px;
+     padding:2px 5px 2px 5px;
+     margin-top:-5px;
+     width:104%;
+     text-align:right;
+     font-size:15px;
 }
-
-.ghx-summary{
-    font-size:23px !important;
-    padding-right:15px;        
+ .ghx-summary{
+     font-size:23px !important;
+     padding-right:15px;
 }
-
-.ghx-parent-stub{
-    min-height:45px;
+ .ghx-parent-stub{
+     min-height:45px;
 }
-
-.ghx-issue-fields{
-    padding-right:0px !important;
-    color:#000000AA !important;
+ .ghx-issue-fields{
+     padding-right:0px !important;
+     color:#000000AA !important;
 }
-
-.ghx-issue-content{
-    padding: 5px 5px 5px 10px !important;
-    min-height: 0px !important;
+ .ghx-issue-content{
+     padding: 5px 5px 5px 10px !important;
+     min-height: 0px !important;
 }
-
-.ghx-avatar img{
-    height:19px;
-    width:19px;
+ .ghx-avatar img{
+     height:19px;
+     width:19px;
 }
-
-.ghx-avatar{
-    top:-8px !important;
-    left:30px !important;
-    right:auto !important;
-    border-radius:50px !important;
-    border:1px solid #009688;
-    overflow:hidden;
-    background-color:#ffffff;
-    z-index:100;
-    opacity:0.9;
-    display:block;
+ .ghx-avatar{
+     top:-8px !important;
+     left:30px !important;
+     right:auto !important;
+     border-radius:50px !important;
+     border:1px solid #009688;
+     overflow:hidden;
+     background-color:#ffffff;
+     z-index:100;
+     opacity:0.9;
+     display:block;
 }
-
-.ghx-end{
-    top: -8px !important;
-    left:7px !important;
-    box-shadow:none !important;
-    background-color:transparent !important;
+ .ghx-end{
+     top: -8px !important;
+     left:7px !important;
+     box-shadow:none !important;
+     background-color:transparent !important;
 }
-
-.ghx-highlighted-fields{
-    margin-top:5px !important;
+ .ghx-highlighted-fields{
+     margin-top:5px !important;
 }
-
-.ghx-issue{
-    padding:8px 0px;
-    margin-bottom:5px;
-    border:1px solid #00000033;
-    margin-right:2px;
-
+ .ghx-issue{
+     padding:8px 0px;
+     margin-bottom:5px;
+     border:1px solid #00000033;
+     margin-right:2px;
 }
-
-.ghx-highlighted-field .aui-label{
-    width:100%;
-    padding:2px;
-    opacity:0.4;
-    font-size:11px;
+ .ghx-highlighted-field .aui-label{
+     width:100%;
+     padding:2px;
+     opacity:0.4;
+     font-size:11px;
 }
-
-.ghx-highlighted-field, .ghx-highlighted-fields{
-    max-width:97% !important;
-    width:84% !important;
-    margin:0 !important;
-    padding:0 !important;
-    margin-top:2px !important;
-
+ .ghx-highlighted-field, .ghx-highlighted-fields{
+     max-width:97% !important;
+     width:84% !important;
+     margin:0 !important;
+     padding:0 !important;
+     margin-top:2px !important;
 }
-
-
-.column-total-complexity{
-background-color:#00000088;
-color:white;
-padding:2px 6px 2px 6px;
-border-radius:50px;
-font-weight:bolder;
-
+ .column-total-complexity{
+     background-color:#00000088;
+     color:white;
+     padding:2px 6px 2px 6px;
+     border-radius:50px;
+     font-weight:bolder;
 }
-
-.boring-issue-number{
-    position:absolute;
-    color:#0277BD;
-    font-weight:bold;
-    font-size:12px;
-    top:0px;
-    right:3px;
-    z-index:1000;
+ .boring-issue-number{
+     position:absolute;
+     color:#0277BD;
+     font-weight:bold;
+     font-size:12px;
+     top:0px;
+     right:3px;
+     z-index:1000;
 }
-
-.aui-badge {
-    right:auto;
-    bottom:auto;
-    border-radius:100px !important;
-    min-height: 1.0em;
-    min-width: 1.0em;
-    padding: 2px;
-    padding-top:3px;
-    font-size: 15px;
-    background-color:#EDE7F6;
-    color:#673AB7;
-    z-index:100;
-    float:left;
-    border:1px solid #9575CD;
-   }
-
-.ghx-issue:hover .ghx-grabber{
-    opacity:1;
+ .aui-badge {
+     right:auto;
+     bottom:auto;
+     border-radius:100px !important;
+     min-height: 1.0em;
+     min-width: 1.0em;
+     padding: 2px;
+     padding-top:3px;
+     font-size: 15px;
+     background-color:#EDE7F6;
+     color:#673AB7;
+     z-index:100;
+     float:left;
+     border:1px solid #9575CD;
+}
+ .ghx-issue:hover .ghx-grabber{
+     opacity:1;
 }
