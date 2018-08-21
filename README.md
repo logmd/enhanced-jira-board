@@ -1,5 +1,5 @@
 # enhanced-jira-board
-its in the name
+its in the name, designed for **JIRA v7.2.8**
 
 ## usage
 1. install [cjs chrome extension](http://bit.ly/2OUpyN3)
