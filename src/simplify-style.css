@@ -88,7 +88,7 @@
  .ghx-end{
      top: -8px !important;
      left:7px !important;
-     z-index: 100;
+     z-index: 100 !important;
      box-shadow:none !important;
      background-color:transparent !important;
 }
