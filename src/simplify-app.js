@@ -2,9 +2,9 @@ function simplifyApp() {
 	var self = this;
 
 	var cssDevCdn =
-			"https://rawgit.com/logmd/enhanced-jira-board/master/src/simplify-style.css",
+			"https://cdn.jsdelivr.net/gh/logmd/enhanced-jira-board@master/src/simplify-style.css",
 		cssProdCdn =
-			"https://cdn.rawgit.com/logmd/enhanced-jira-board/510115ee/src/simplify-style.css",
+			"https://cdn.jsdelivr.net/gh/logmd/enhanced-jira-board@510115ee/src/simplify-style.css",
 		cssCdn = cssDevCdn;
 
 	var addSimplifyButton = function() {
